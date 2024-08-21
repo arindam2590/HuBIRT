@@ -8,3 +8,5 @@ In the context of bio-inspired teams, biomimetics refers to modeling agents' beh
 
 - **Parameter-Based Management (PAR)**
 - **Predator-Based Management (PRED)**
+
+The implementation aims to understand how these models perform in terms of task completion time and resource consumption under varying conditions.
