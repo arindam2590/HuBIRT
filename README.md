@@ -23,10 +23,10 @@ The implementation aims to understand how these models perform in terms of task 
 
 ## Simulations
 The implementation includes several simulations to compare the performance of PAR and PRED under different conditions:
-- **Food Unit:** Food container contains different number of food item in each simulation.
+- **Food Unit:** Food container contains different number of food units in each simulation.
 - **Food Placement:** Food containers are randomly distributed across the environment, requiring coordinated fish behavior.
 
-Results from the simulations provide insights into the efficiency and robustness of each model.
+Each simulation consists of 5 trials and computes the interquartile range of the completion time to complete the consumption of the food items. Results from the simulations provide insights into the efficiency and robustness of each model.
 
 ## Usage
 Run the simulations using the following command:
@@ -43,12 +43,12 @@ Simulation results, including completion times and resource consumption, are sto
 The following figure shows the interquartile range and trends obtained during the simulation time:
 
 <div align="center">
-  <img src="Data/sim_completion_plot_PAR.png" alt="Figure 1: Parameter based Management" width="400" height="250" style="display: inline-block; margin-right: 20px;"/>
+  <img src="Data/sim_completion_plot_PAR.png" alt="Figure 1: Parameter based Management" width="400" height="250" style="display: inline-block; margin-right: 40px;"/>
   <img src="Data/sim_completion_plot_PRED.png" alt="Figure 2: Predator based Management" width="400" height="250" style="display: inline-block;"/>
 </div>
 
-![Figure 1: Parameter based Management](Data/sim_completion_plot_PAR.png)
-![Figure 2: Predator based Management](Data/sim_completion_plot_PRED.png)
+In figure 1, the box plot shows the completion times of a parameter-based swarm algorithm across four simulations. Simulation 1 was the fastest, while Simulation 4 was the slowest. The interquartile range varies, indicating different levels of variability due to the stochasticity of the simulation. Outliers are present in Simulations 1 and 4. The plot suggests a general trend of increasing completion time with increasing food container as well as food unit. Figure 2 illustrates the completion time of a predator-based swarm algorithm across four simulations. Simulation 3 had the highest median completion time, while Simulation 2 had the lowest. The interquartile range varies, indicating different levels of variability. Outliers are present in Simulations 1 and 3. The plot suggests a general trend of increasing and then decreasing completion time with increasing food container as well as food unit.
+
 
 ## Acknowledgements
 This work is based on the research conducted by Michael A. Goodrich, P. B. Sujit, Brian Pendleton, Jose Pinto, and Jacob W. Crandall, and was funded by ONR and ARL.
