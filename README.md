@@ -41,6 +41,12 @@ If you need to change the parameter, you can change it from main python file whe
 Simulation results, including completion times and resource consumption, are stored in the *'results/'* directory. The results are presented with statistical analyses such as mean, interquartile range, and trends.
 
 The following figure shows the interquartile range and trends obtained during the simulation time:
+
+<div align="center">
+  <img src="Data/sim_completion_plot_PAR.png" alt="Figure 1: Parameter based Management" width="400" height="250" style="display: inline-block; margin-right: 20px;"/>
+  <img src="Data/sim_completion_plot_PRED.png" alt="Figure 2: Predator based Management" width="400" height="250" style="display: inline-block;"/>
+</div>
+
 ![Figure 1: Parameter based Management](Data/sim_completion_plot_PAR.png)
 ![Figure 2: Predator based Management](Data/sim_completion_plot_PRED.png)
 
