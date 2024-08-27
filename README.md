@@ -42,7 +42,7 @@ Simulation results, including completion times and resource consumption, are sto
 
 The following figure shows the interquartile range and trends obtained during the simulation time:
 
-<div align="center">
+<div>
   <figure style="display: inline-block; margin-right: 40px;">
     <img src="Data/sim_completion_plot_PAR.png" alt="Figure 1" width="400" height="250">
     <figcaption>Figure 1: Parameter based Management</figcaption>
