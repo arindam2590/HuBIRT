@@ -32,15 +32,16 @@ Results from the simulations provide insights into the efficiency and robustness
 Run the simulations using the following command:
 
 ```bash
-python biomimetics_simulation.py --model <MODEL_TYPE> --scenario <SCENARIO_TYPE>
-```
-### Example:
-```bash
-python biomimetics_simulation.py --model <MODEL_TYPE> --scenario <SCENARIO_TYPE>
+python3 hubirt_main.py
 ```
 
+If you need to change the parameter, you can change it from main python file where parameters are set.
+
 ## Results
-Simulation results, including completion times and resource consumption, are stored in the results/ directory. The results are presented with statistical analyses such as mean, interquartile range, and trends.
+Simulation results, including completion times and resource consumption, are stored in the *'results/'* directory. The results are presented with statistical analyses such as mean, interquartile range, and trends.
+
+The following figure shows the interquartile range and trends obtained during the simulation time:
+![Parameter based Management](images/cumulative_reward.png)
 
 ## Acknowledgements
 This work is based on the research conducted by Michael A. Goodrich, P. B. Sujit, Brian Pendleton, Jose Pinto, and Jacob W. Crandall, and was funded by ONR and ARL.
